@@ -2,6 +2,6 @@ package oldcolor
 
 import "github.com/fatih/color"
 
-func SayHi() {
-	color.HiRed("HELLO WORLD")
+func SayHi() string {
+	return color.HiRed("HELLO WORLD")
 }
